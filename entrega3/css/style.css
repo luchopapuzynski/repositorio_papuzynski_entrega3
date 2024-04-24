@@ -1,0 +1,48 @@
+.header {
+  background-color: #007bff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#carouselExampleIndicators {
+  margin-top: 20px;
+}
+#carouselExampleIndicators .carousel-control-prev,
+#carouselExampleIndicators .carousel-control-next {
+  width: 5%;
+}
+#carouselExampleIndicators .carousel-control-prev:hover,
+#carouselExampleIndicators .carousel-control-next:hover {
+  color: #000;
+}
+
+header {
+  background-color: #000;
+}
+header .navbar-brand {
+  color: hsl(187, 95%, 54%);
+}
+header .navbar-nav .nav-link {
+  color: hsl(187, 95%, 54%);
+}
+header .navbar-nav .nav-link:hover {
+  color: rgba(0, 0, 17, 0);
+}
+header .navbar-nav .nav-link.active {
+  color: rgba(0, 0, 17, 0);
+  background-color: hsl(187, 95%, 54%);
+}
+
+.col {
+  margin-top: 20px;
+  text-align: center;
+}
+.col img {
+  width: 100%;
+}
+.col p {
+  margin-top: 10px;
+}
+
+/*# sourceMappingURL=style.css.map */
